@@ -13,3 +13,5 @@ C:\Users\user\Documents\GitHub\gxworks3-ci-test1\PLCscript-test\obj\Debug\net6.0
 C:\Users\user\Documents\GitHub\gxworks3-ci-test1\PLCscript-test\obj\Debug\net6.0\PLCscript-test.pdb
 C:\Users\user\Documents\GitHub\gxworks3-ci-test1\PLCscript-test\obj\Debug\net6.0\PLCscript-test.genruntimeconfig.cache
 C:\Users\user\Documents\GitHub\gxworks3-ci-test1\PLCscript-test\obj\Debug\net6.0\ref\PLCscript-test.dll
+C:\Users\user\Documents\GitHub\gxworks3-ci-test1\PLCscript-test\obj\Debug\net6.0\Interop.ActUtlTypeLib.dll
+C:\Users\user\Documents\GitHub\gxworks3-ci-test1\PLCscript-test\obj\Debug\net6.0\PLCscript-test.csproj.ResolveComReference.cache
