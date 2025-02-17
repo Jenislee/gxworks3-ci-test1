@@ -1,0 +1,17 @@
+C:\Users\user\Documents\GitHub\gxworks3-ci-test1\PLCscript-test\bin\Release\net6.0\PLCscript-test.exe
+C:\Users\user\Documents\GitHub\gxworks3-ci-test1\PLCscript-test\bin\Release\net6.0\PLCscript-test.deps.json
+C:\Users\user\Documents\GitHub\gxworks3-ci-test1\PLCscript-test\bin\Release\net6.0\PLCscript-test.runtimeconfig.json
+C:\Users\user\Documents\GitHub\gxworks3-ci-test1\PLCscript-test\bin\Release\net6.0\PLCscript-test.dll
+C:\Users\user\Documents\GitHub\gxworks3-ci-test1\PLCscript-test\bin\Release\net6.0\PLCscript-test.pdb
+C:\Users\user\Documents\GitHub\gxworks3-ci-test1\PLCscript-test\obj\Release\net6.0\Interop.ActUtlTypeLib.dll
+C:\Users\user\Documents\GitHub\gxworks3-ci-test1\PLCscript-test\obj\Release\net6.0\PLCscript-test.csproj.ResolveComReference.cache
+C:\Users\user\Documents\GitHub\gxworks3-ci-test1\PLCscript-test\obj\Release\net6.0\PLCscript-test.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Documents\GitHub\gxworks3-ci-test1\PLCscript-test\obj\Release\net6.0\PLCscript-test.AssemblyInfoInputs.cache
+C:\Users\user\Documents\GitHub\gxworks3-ci-test1\PLCscript-test\obj\Release\net6.0\PLCscript-test.AssemblyInfo.cs
+C:\Users\user\Documents\GitHub\gxworks3-ci-test1\PLCscript-test\obj\Release\net6.0\PLCscript-test.csproj.CoreCompileInputs.cache
+C:\Users\user\Documents\GitHub\gxworks3-ci-test1\PLCscript-test\obj\Release\net6.0\PLCscript-test.sourcelink.json
+C:\Users\user\Documents\GitHub\gxworks3-ci-test1\PLCscript-test\obj\Release\net6.0\PLCscript-test.dll
+C:\Users\user\Documents\GitHub\gxworks3-ci-test1\PLCscript-test\obj\Release\net6.0\refint\PLCscript-test.dll
+C:\Users\user\Documents\GitHub\gxworks3-ci-test1\PLCscript-test\obj\Release\net6.0\PLCscript-test.pdb
+C:\Users\user\Documents\GitHub\gxworks3-ci-test1\PLCscript-test\obj\Release\net6.0\PLCscript-test.genruntimeconfig.cache
+C:\Users\user\Documents\GitHub\gxworks3-ci-test1\PLCscript-test\obj\Release\net6.0\ref\PLCscript-test.dll
