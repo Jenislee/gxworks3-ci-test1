@@ -20,11 +20,6 @@ jobs:
         run: |
           choco install microsoft-build-tools  # Install MSBuild tools
           
-      - name: Build C# Test Script (using MSBuild)
-        run: |
-          # Correct path to the .csproj file relative to the repository root
-          msbuild ./PLCscript-test/PLCscript-test.csproj /p:Configuration=Release
-
       - name: Run PLC Test
         run: |
-          Start-Process -FilePath "PLCscript-test\bin\Release\PLCscript-test.exe" -NoNewWindow -Wait
+	  powershell -Command Start-Process -FilePath "PLCscript-test\bin\Release\net6.0\PLCscript-test.exe" -NoNewWindow -Wait
