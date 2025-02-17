@@ -22,8 +22,8 @@ jobs:
           
       - name: Build C# Test Script (using MSBuild)
         run: |
-          msbuild PLCscript-test\PLCscript-test.csproj /p:Configuration=Release
-        working-directory: PLCscript-test
+          # Correct path to the .csproj file relative to the repository root
+          msbuild ./PLCscript-test/PLCscript-test.csproj /p:Configuration=Release
 
       - name: Run PLC Test
         run: |
