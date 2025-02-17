@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PLCscript-test")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0380b4f8ec9954c4103846a0cb04176763de55f3")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+312051f679da632d32bc1e5d69cce2ebacfc8f4d")]
 [assembly: System.Reflection.AssemblyProductAttribute("PLCscript-test")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PLCscript-test")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

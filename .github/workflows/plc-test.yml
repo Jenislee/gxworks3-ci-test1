@@ -3,29 +3,28 @@ name: PLC Test Automation
 on:
   push:
     paths:
-      - '**/*.gx3'  # Runs pipeline only when a .gx3 file is changed
+      - '**/*.gx3'  # Trigger when a .gx3 file changes
 
 jobs:
   test-plc:
-    runs-on: windows-latest  # Uses a Windows runner
+    runs-on: windows-latest  # Using a Windows runner
 
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v3
 
-      - name: Setup .NET
-        uses: actions/setup-dotnet@v3
-        with:
-          dotnet-version: 6.0  # Adjust to your .NET version
+      - name: Set up MSBuild
+        uses: microsoft/setup-msbuild@v1  # Set up MSBuild for .NET Framework
 
       - name: Install Dependencies
-        run: dotnet restore
-        working-directory: PLCscript-test  # Ensure we restore dependencies in the correct subfolder
-
-      - name: Build C# Test Script
-        run: dotnet build --configuration Release
-        working-directory: PLCscript-test  # Ensure we build in the correct subfolder
+        run: |
+          choco install microsoft-build-tools  # Install MSBuild tools
+          
+      - name: Build C# Test Script (using MSBuild)
+        run: |
+          msbuild PLCscript-test\PLCscript-test.csproj /p:Configuration=Release
+        working-directory: PLCscript-test
 
       - name: Run PLC Test
         run: |
-          Start-Process -FilePath "PLCscript-test/bin/Release/net6.0/PLCscript-test.exe" -NoNewWindow -Wait
+          Start-Process -FilePath "PLCscript-test\bin\Release\PLCscript-test.exe" -NoNewWindow -Wait
