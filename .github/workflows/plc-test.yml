@@ -1,0 +1,29 @@
+name: PLC Test Automation
+
+on:
+  push:
+    paths:
+      - 'PLC_Scripts/*.gx3'  # Runs if a .gx3 file changes
+
+jobs:
+  test-plc:
+    runs-on: windows-latest  # Uses Windows runner
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v3
+        with:
+          dotnet-version: 6.0  # Adjust version if needed
+
+      - name: Install Dependencies
+        run: dotnet restore
+
+      - name: Build C# Test Script
+        run: dotnet build TestScripts/PlcTest.csproj --configuration Release
+
+      - name: Run PLC Test
+        run: |
+          Start-Process -FilePath "TestScripts/bin/Release/net6.0/PlcTest.exe" -NoNewWindow -Wait
